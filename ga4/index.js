@@ -1,5 +1,7 @@
+// Analyzify Shopify Pixels - GA4 v1.0 - learn more on https://analyzify.app/shopify-pixels
+// DO NOT forget updating G-XXXXXXXXXX with your own GA4 measurement ID - learn more on https://docs.analyzify.app/find-your-google-analytics-tracking-id
 const script = document.createElement("script");
-script.setAttribute("src", "https://www.googletagmanager.com/gtag/js?id=G-DJQNNMX208");
+script.setAttribute("src", "https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX");
 script.setAttribute("async", "");
 document.head.appendChild(script);
 
@@ -8,8 +10,8 @@ function gtag() {
   dataLayer.push(arguments);
 }
 gtag("js", new Date());
-gtag("config", "G-DJQNNMX208");
-
+gtag("config", "G-XXXXXXXXXX");
+// DO NOT forget updating G-XXXXXXXXXX with your own GA4 measurement ID - learn more on https://docs.analyzify.app/find-your-google-analytics-tracking-id
 
 const Analyzify = {
   getItemsFromLineItems(lineItems) {
