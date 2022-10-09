@@ -27,8 +27,11 @@ Analyzify's open-source solution doesn't only cover the events but also the metr
 Shopify Customer Events is a recently released featured. We strongly recommend reading Shopify's documentation, changelog and tutorials before you take any action here. Shopify clearly stated that they won't be supporting the pixels that you add on these sections. 
 
 [Shopify Pixels and Customer Events](https://help.shopify.com/en/manual/promoting-marketing/pixels/)
+
 [Pixels Overview](https://help.shopify.com/en/manual/promoting-marketing/pixels/overview)
+
 [Custom Pixels](https://help.shopify.com/en/manual/promoting-marketing/pixels/custom-pixels)
+
 [Youtube: How to add or modify custom pixels in your Shopify Store?](https://www.youtube.com/watch?v=o82QdfHIwt8)
 
 
