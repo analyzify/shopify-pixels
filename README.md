@@ -22,6 +22,11 @@ You can use the GA4 code block in this repo and follow the tutorial on this page
 
 Analyzify's open-source solution doesn't only cover the events but also the metrics/dimensions along with them. 
 
+
+[![Set up GA4 E-commerce Tracking using Shopify Pixels](https://cdn.analyzify.app/img/yt-shopify-pixels-ga4-setup.jpg)](https://www.youtube.com/watch?v=m2lw2ET9Uf4 "Set up GA4 E-commerce Tracking using Shopify Pixels")
+
+
+
 ## More resources on Shopify Customer Events
 
 Shopify Customer Events is a recently released featured. We strongly recommend reading Shopify's documentation, changelog and tutorials before you take any action here. Shopify clearly stated that they won't be supporting the pixels that you add on these sections. 
