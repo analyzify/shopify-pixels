@@ -67,7 +67,7 @@ const Analyzify = {
     }
   },
 
-  getCheckoutCompletData(evt) {
+  getCheckoutCompleteData(evt) {
     return {
       transaction_id: evt.data.checkout.order.id,
       currency: evt.data.checkout.currencyCode,
@@ -105,5 +105,5 @@ analytics.subscribe("checkout_started", async (event) => {
 });
 
 analytics.subscribe("checkout_completed", async (event) => {
-  gtag("event", "purchase", Analyzify.getCheckoutCompletData(event));
+  gtag("event", "purchase", Analyzify.getCheckoutCompleteData(event));
 });
