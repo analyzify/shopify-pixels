@@ -50,6 +50,13 @@ const Analyzify = {
     };
   },
 
+  getCollectionViewData(evt) {
+    return {
+      collection_id: evt.data.collection.id,
+      collection_name: evt.data.collection.title,
+    }
+  },
+
   getAddToCartData(evt) {
     return {
       currency: evt.data.cartLine.merchandise.price.currencyCode,
@@ -95,6 +102,10 @@ analytics.subscribe("page_viewed", async (event) => {
 
 analytics.subscribe("product_viewed", async (event) => {
   gtag("event", "view_item", Analyzify.getViewItemData(event));
+});
+
+analytics.subscribe("collection_viewed", async (event) => {
+  gtag("event", "collection_view", Analyzify.getCollectionViewData(event));
 });
 
 analytics.subscribe("search_submitted", async (event) => {
