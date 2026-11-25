@@ -31,8 +31,8 @@ Plain JavaScript for the Shopify Customer Events (Web Pixels) API, Google gtag.j
 
 ## History
 
-- First commit: 2022-10-08 ("ga4 script added"); last commit: 2022-12-15 (merge of PR #5); 12 commits (9 without merges).
-- Authors: the Analyzify team, plus three outside contributors through pull requests.
+- First commit: 2022-10-08 by Aman Bansal ("ga4 script added"); last commit: 2022-12-15 by Berk Belcioglu (merge of PR #5); 12 commits (9 without merges).
+- Main authors: Erman Küplü (4), Berk Belcioglu (3), Aman Bansal (2), plus one each from outside contributors Craig Cooper, Sky Rousse and abdullaharik.
 - 2022-10-08: repo created, GA4 custom pixel script added; 2022-10-09: README and guide link written.
 - 2022-10-17: PR #1 (one place to set the tracking ID) merged.
 - 2022-12-02: PR #2 (typo in function name) merged; issue #3 (page views counted twice) reported.
@@ -48,7 +48,7 @@ Plain JavaScript for the Shopify Customer Events (Web Pixels) API, Google gtag.j
 
 ## Who to ask
 
-The Analyzify team (via https://analyzify.com).
+Erman Küplü (Analyzify founder) for why it was published and whether the guide is still promoted.
 
 ## Original README
 
